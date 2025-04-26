@@ -73,7 +73,7 @@ transform = transforms.Compose([
 ])
 
 # --- Paths ---
-base_path = r"C:\Users\KOMAL YADAV\Downloads\LITS17\Coverted_image\train"
+base_path = "paste your train dataset path"
 raw_root = os.path.join(base_path, "raw_images")
 mask_root = os.path.join(base_path, "mask")
 
