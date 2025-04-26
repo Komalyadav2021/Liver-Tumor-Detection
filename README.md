@@ -13,4 +13,4 @@ performance in tumor segmentation. The primary goal of this paper is to utilize 
 and tumor segmentation, assessing the model using metrics such as the Dice Similarity Coefficient, accuracy, and 
 precision
 
-Download Dataset from here: https://www.ircad.fr/research/data-sets/liver-segmentation-3d-ircadb-01/
+Download Dataset from here: [https://academictorrents.com/details/27772adef6f563a1ecc0ae19a528b956e6c803ce]
