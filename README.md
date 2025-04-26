@@ -1,16 +1,4 @@
 # Liver-Tumor-Detection
- Segmenting the liver and tumors from computed tomography (CT) scans is crucial for medical studies utilizing 
-machine and deep learning techniques. Semantic segmentation, a critical step in this process, is accomplished 
-effectively using fully convolutional neural networks (CNNs). Most Popular networks like UNet and ResUNet 
-leverage diverse resolution features through meticulous planning of convolutional layers and skip connections. 
-This study introduces an automated system employing different convolutional layers that automatically extract 
-features and preserve the spatial information of each feature. In this study, we employed both UNet and a 
-modified Residual UNet on the 3Dircadb (3D Image Reconstruction for computer Assisted Diagnosis database) 
-dataset to segment the liver and tumor. The ResUNet model achieved remarkable results with a Dice Similarity 
-Coefficient of 91.44% for liver segmentation and 75.84% for tumor segmentation on 128 × 128 pixel images. 
-These findings validate the effectiveness of the developed models. Notably both models exhibited excellent 
-performance in tumor segmentation. The primary goal of this paper is to utilize deep learning algorithms for liver 
-and tumor segmentation, assessing the model using metrics such as the Dice Similarity Coefficient, accuracy, and 
-precision
+Segmenting the liver and tumors from computed tomography (CT) scans is crucial for medical studies utilizing machine and deep learning techniques. In this study, an automated system is proposed that employs ResNet50 as a feature extractor to efficiently capture spatial and semantic information from CT images. The extracted features are subsequently classified using a Random Forest Classifier to distinguish between liver, tumor, and background regions. Experiments were conducted on the LiTS (Liver Tumor Segmentation Challenge (LiTS17) Database) dataset, where the model achieved a training accuracy of 98.74% and a testing accuracy of 90.48% on 128 × 128 pixel images. These results validate the effectiveness of combining deep feature extraction with traditional machine learning classifiers for medical image segmentation tasks. The performance of the system was assessed using metrics such as accuracy, precision, and the Confusion Matrix, highlighting its robustness and reliability for liver and tumor segmentation.
 
 Download Dataset from here: [https://academictorrents.com/details/27772adef6f563a1ecc0ae19a528b956e6c803ce]
